@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt">
-    <style>
-        canvas {
-            border: 1px solid black
-        }
-    </style>
-<head>
-<meta charset="UTF-8">
-<title>Canvas</title>
-</head>
-<body>
-
-<canvas id= "canvas"></canvas>
-<script>
-
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d")
 canvas.width = window.innerWidth
@@ -42,7 +26,3 @@ function animate(){
    requestAnimationFrame(animate);
 }
 animate();
-
-</script>
-</body>
-</html>
